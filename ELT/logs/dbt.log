@@ -1,0 +1,98 @@
+[0m20:24:16.078475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1112e9490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111a8f020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111a8ea50>]}
+
+
+============================== 20:24:16.086253 | 85694382-1407-4578-9430-c25ac126f421 ==============================
+[0m20:24:16.086253 [info ] [MainThread]: Running with dbt=1.8.3
+[0m20:24:16.086792 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/lokesh/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m20:24:16.098371 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/lokesh/.dbt')}
+[0m20:24:16.098824 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m20:29:17.114925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073bdd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10757aae0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10757a570>]}
+
+
+============================== 20:29:17.119197 | 559d7669-da14-49af-9749-d41c084d900b ==============================
+[0m20:29:17.119197 [info ] [MainThread]: Running with dbt=1.8.3
+[0m20:29:17.119736 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/lokesh/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:29:21.841575 [debug] [MainThread]: Starter project path: /Users/lokesh/projects/data-engineering/data-eng-project/ELT/env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m20:29:21.853056 [info ] [MainThread]: 
+Your new dbt project "custom_postgres" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:29:21.853964 [info ] [MainThread]: Setting up your profile.
+[0m20:29:21.855543 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m20:29:21.864390 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 4.7972527, "process_user_time": 1.001404, "process_kernel_time": 0.173081, "process_mem_max_rss": "97107968", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m20:29:21.865513 [debug] [MainThread]: Command `dbt init` failed at 20:29:21.865252 after 4.80 seconds
+[0m20:29:21.866041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e93320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075a4d40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075a4da0>]}
+[0m20:29:21.866515 [debug] [MainThread]: Flushing usage events
+[0m20:34:28.992656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104657350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11ad3ec60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11ad3e6c0>]}
+
+
+============================== 20:34:28.996547 | 5ae8e8ca-a6fe-432f-a404-7b6f93956ec6 ==============================
+[0m20:34:28.996547 [info ] [MainThread]: Running with dbt=1.8.3
+[0m20:34:28.997127 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/Users/lokesh/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:34:32.746398 [debug] [MainThread]: Starter project path: /Users/lokesh/projects/data-engineering/data-eng-project/ELT/env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m20:34:32.757073 [info ] [MainThread]: 
+Your new dbt project "custom_postgres" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:34:32.758346 [info ] [MainThread]: Setting up your profile.
+[0m20:51:57.951265 [error] [MainThread]: Encountered an error:
+
+[0m20:51:58.009305 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/lokesh/projects/data-engineering/data-eng-project/ELT/env/lib/python3.12/site-packages/dbt/cli/requires.py", line 138, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lokesh/projects/data-engineering/data-eng-project/ELT/env/lib/python3.12/site-packages/dbt/cli/requires.py", line 101, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lokesh/projects/data-engineering/data-eng-project/ELT/env/lib/python3.12/site-packages/dbt/cli/main.py", line 470, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/Users/lokesh/projects/data-engineering/data-eng-project/ELT/env/lib/python3.12/site-packages/dbt/task/init.py", line 347, in run
+    self.setup_profile(profile_name)
+  File "/Users/lokesh/projects/data-engineering/data-eng-project/ELT/env/lib/python3.12/site-packages/dbt/task/init.py", line 263, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+  File "/Users/lokesh/projects/data-engineering/data-eng-project/ELT/env/lib/python3.12/site-packages/dbt/task/init.py", line 180, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "/Users/lokesh/projects/data-engineering/data-eng-project/ELT/env/lib/python3.12/site-packages/dbt/task/init.py", line 164, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lokesh/projects/data-engineering/data-eng-project/ELT/env/lib/python3.12/site-packages/dbt/task/init.py", line 130, in generate_target_from_input
+    target[key] = click.prompt(
+                  ^^^^^^^^^^^^^
+  File "/Users/lokesh/projects/data-engineering/data-eng-project/ELT/env/lib/python3.12/site-packages/click/termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lokesh/projects/data-engineering/data-eng-project/ELT/env/lib/python3.12/site-packages/click/termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m20:51:58.024785 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 1049.0215, "process_user_time": 1.090474, "process_kernel_time": 0.227593, "process_mem_max_rss": "97435648", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m20:51:58.028872 [debug] [MainThread]: Command `dbt init` failed at 20:51:58.028425 after 1049.03 seconds
+[0m20:51:58.033714 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a403bc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a56d400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a56d850>]}
+[0m20:51:58.037529 [debug] [MainThread]: Flushing usage events

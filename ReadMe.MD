@@ -51,3 +51,11 @@ Install Docker Desktop -> https://www.docker.com/products/docker-desktop/
   -e MYSQL_DB=todos \
   node:18-alpine \
   sh -c "yarn install && yarn run dev"
+
+### Setting up docker-compose will allow us to manage multiple services & containers in one go.
+
+- It helps you to set a rules on which containers to bootstrap when condition occurs
+- Mounting multiple containers in single go
+- Streamlined to have multiple applications.
+
+### Next setup dbt-postgres
